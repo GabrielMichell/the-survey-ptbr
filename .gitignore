@@ -1,0 +1,22 @@
+# Nunca publicar instalações, backups ou arquivos completos do jogo
+backup/
+build/
+test-install/
+*.assets
+*.resS
+*.resource
+*.dll
+*.exe
+level0
+level1
+globalgamemanagers
+
+# Arquivos locais do sistema e ferramentas
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+work/
+
+
