@@ -4,49 +4,75 @@
 
 Tradução não oficial de **The Survey** para português brasileiro.
 
-![Situação](https://img.shields.io/badge/tradução-concluída-0969da)
+[![Versão](https://img.shields.io/github/v/release/GabrielMichell/the-survey-ptbr?label=versão)](https://github.com/GabrielMichell/the-survey-ptbr/releases/latest)
 ![Idioma](https://img.shields.io/badge/idioma-PT--BR-009c3b)
 ![Projeto](https://img.shields.io/badge/projeto-não%20oficial-6e7781)
 
+**[Baixar a versão mais recente](https://github.com/GabrielMichell/the-survey-ptbr/releases/latest)**
+
 </div>
 
-## Sobre o projeto
+## Sobre a tradução
 
-Este projeto traduz para PT-BR os textos de interface, instruções, mensagens, documentos narrativos e demais conteúdos exibidos ao jogador em **The Survey**.
+O projeto traduz para PT-BR textos de interface, instruções, mensagens, documentos narrativos e imagens exibidas ao jogador em **The Survey**. É necessária uma cópia legítima do jogo para usar a tradução.
 
-O trabalho inclui revisão textual, adaptação das imagens com texto e testes no jogo. O patch público está sendo preparado para conter apenas os arquivos necessários à tradução — nenhum arquivo completo do jogo será distribuído.
+## Escolha um método de instalação
 
-## Situação atual
+Os dois downloads contêm a mesma tradução. **Não é necessário baixar os dois.**
 
-- 273 ocorrências de texto traduzidas.
-- 6 identificadores técnicos revisados e classificados como não exibidos ao jogador.
-- 17 documentos narrativos em imagem traduzidos.
-- Interface, instruções, dicas, mensagens, pesquisa, títulos, datas e horários concluídos.
-- Verificação automática concluída sem campos vazios, pendências ou conflitos.
-- Patch de instalação e teste final em preparação.
+### Instalador automático — recomendado
 
-## Instalação
+Baixe o arquivo terminado em **`-Instalador-v1.0.exe`** na página da Release.
 
-As instruções de instalação e o download serão publicados na seção **Releases** depois da validação final.
+1. Feche o jogo.
+2. Execute o instalador.
+3. Confirme ou selecione a pasta de The Survey.
+4. Clique em **Instalar tradução**.
 
-> É necessária uma cópia legítima de The Survey. Não substitua arquivos antes de guardar um backup.
+O instalador cria backup automático dos cinco arquivos modificados e oferece a opção **Remover tradução** para restaurá-los. O [código-fonte completo do instalador](installer-source/) está disponível neste repositório.
+
+### Instalação manual
+
+Baixe **`Traducao-PTBR-The-Survey-v1.0.zip`** na página da Release.
+
+1. Feche o jogo.
+2. Extraia o ZIP.
+3. Leia **`COMO INSTALAR.txt`**.
+4. Copie a pasta **`Visibility03_Data`** para a pasta principal do jogo, confirmando a substituição.
+5. Guarde previamente uma cópia dos arquivos originais ou use a verificação de integridade da Steam para restaurá-los.
+
+Caminho comum da instalação:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\The Survey
+```
+
+## Segurança e autenticidade
+
+Baixe os arquivos somente de:
+
+- [Repositório oficial de Gabriel Michel](https://github.com/GabrielMichell/the-survey-ptbr)
+- [Releases oficiais](https://github.com/GabrielMichell/the-survey-ptbr/releases)
+
+**Nunca é necessário desativar o antivírus, o Microsoft Defender ou qualquer outra proteção para instalar a tradução.** Se houver um alerta, não ignore nem desative a proteção. Cancele a execução, confira o hash SHA-256 publicado na Release e relate o caso em uma Issue.
+
+Cada Release inclui o arquivo **`SHA256SUMS.txt`**, com os hashes dos dois downloads.
 
 ## Como relatar um problema
 
 Abra uma [Issue](https://github.com/GabrielMichell/the-survey-ptbr/issues) e informe:
 
-1. onde o texto aparece;
+1. onde o problema aparece;
 2. o texto incorreto ou uma captura de tela;
 3. o comportamento esperado;
-4. a versão do jogo, se souber.
+4. a versão do jogo e da tradução.
 
 ## Créditos
 
-- Tradução PT-BR: **Gabriel Michel**
-- Assistência de tradução: **OpenAI Codex**
+- **Tradução PT-BR: Gabriel Michel**
+- **Assistência de tradução: OpenAI Codex**
 
 ## Aviso legal
 
-Projeto de fã, gratuito e não oficial, sem vínculo com a desenvolvedora ou a publicadora. As marcas e os materiais do jogo pertencem aos seus respectivos titulares. Este repositório não inclui o jogo nem arquivos originais completos.
-
+Projeto gratuito, não oficial e feito por fã, sem vínculo com a desenvolvedora ou a publicadora. Marcas e materiais do jogo pertencem aos respectivos titulares. O repositório não contém o jogo; os downloads incluem somente os arquivos necessários para aplicar a tradução e exigem uma cópia legítima.
 
