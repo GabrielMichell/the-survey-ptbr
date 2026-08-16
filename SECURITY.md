@@ -9,16 +9,23 @@ Baixe a tradução somente pelo repositório oficial:
 
 Nunca aceite arquivos enviados por mensagens privadas, encurtadores de URL, sites de terceiros ou páginas que imitem este projeto.
 
-## Antivírus
+## SmartScreen e antivírus
 
 **Nunca é necessário desativar o antivírus, o Microsoft Defender, o SmartScreen ou qualquer outra proteção para instalar esta tradução.**
 
-Se uma proteção emitir um alerta:
+O instalador não possui assinatura digital comercial. Por isso, o SmartScreen pode mostrar **“O Windows protegeu o computador”** e classificá-lo como **aplicativo não reconhecido**. Esse aviso de reputação, sozinho, não informa que um vírus foi detectado.
+
+Se aparecer somente esse aviso do SmartScreen:
 
 1. não desative a proteção;
-2. não force a execução;
-3. confira o hash SHA-256 do download com o arquivo `SHA256SUMS.txt` da Release;
-4. abra uma Issue informando o nome do antivírus e a mensagem apresentada.
+2. confirme que o download veio da Release oficial;
+3. confira o nome do arquivo e seu hash SHA-256 com `SHA256SUMS.txt`;
+4. clique em **Mais informações**;
+5. estando tudo correto, escolha **Executar assim mesmo**.
+
+Esse procedimento autoriza apenas o arquivo verificado e não desativa o SmartScreen.
+
+Se o antivírus informar uma ameaça específica, colocar o arquivo em quarentena ou apresentar um nome de detecção, não crie exceções e não force a execução. Use o ZIP manual e abra uma Issue com o nome do antivírus, a mensagem completa e a versão baixada.
 
 ## Comportamento do instalador
 

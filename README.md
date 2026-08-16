@@ -31,6 +31,14 @@ Baixe o arquivo terminado em **`-Instalador-v1.0.exe`** na página da Release.
 
 O instalador cria backup automático dos cinco arquivos modificados e oferece a opção **Remover tradução** para restaurá-los. O [código-fonte completo do instalador](installer-source/) está disponível neste repositório.
 
+#### Aviso “O Windows protegeu o computador”
+
+O instalador ainda não possui uma assinatura digital comercial. Por isso, o Microsoft Defender SmartScreen pode classificá-lo como **aplicativo não reconhecido**. Esse é um aviso de reputação para programas novos ou sem assinatura e, isoladamente, **não significa que um vírus foi detectado**.
+
+Antes de continuar, confirme que o arquivo veio desta Release oficial e compare seu hash SHA-256 com o valor publicado em `SHA256SUMS.txt`. Estando tudo correto, clique em **Mais informações**, confira o nome `Traducao-PTBR-The-Survey-Instalador-v1.0.exe` e escolha **Executar assim mesmo**. Isso não desativa o SmartScreen nem o antivírus.
+
+Se o antivírus apresentar o nome de uma ameaça específica, colocar o arquivo em quarentena ou indicar uma detecção de malware, **não force a execução**. Use o ZIP manual e relate o alerta em uma Issue.
+
 ### Instalação manual
 
 Baixe **`Traducao-PTBR-The-Survey-v1.0.zip`** na página da Release.
@@ -54,7 +62,7 @@ Baixe os arquivos somente de:
 - [Repositório oficial de Gabriel Michel](https://github.com/GabrielMichell/the-survey-ptbr)
 - [Releases oficiais](https://github.com/GabrielMichell/the-survey-ptbr/releases)
 
-**Nunca é necessário desativar o antivírus, o Microsoft Defender ou qualquer outra proteção para instalar a tradução.** Se houver um alerta, não ignore nem desative a proteção. Cancele a execução, confira o hash SHA-256 publicado na Release e relate o caso em uma Issue.
+**Nunca é necessário desativar o antivírus, o Microsoft Defender, o SmartScreen ou qualquer outra proteção para instalar a tradução.** O aviso de “aplicativo não reconhecido” do SmartScreen é diferente de uma detecção específica do antivírus. Consulte as orientações acima antes de decidir continuar.
 
 Cada Release inclui o arquivo **`SHA256SUMS.txt`**, com os hashes dos dois downloads.
 
