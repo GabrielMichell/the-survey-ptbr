@@ -1,6 +1,6 @@
 # Código-fonte do instalador automático
 
-Esta pasta contém o código-fonte do instalador distribuído na Release `v1.0`.
+Esta pasta contém o código-fonte do instalador distribuído na Release `v1.1`.
 
 ## Arquivos
 
