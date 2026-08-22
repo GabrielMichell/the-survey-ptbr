@@ -39,7 +39,7 @@ namespace TheSurveyPTBRInstaller
 
         public InstallerForm()
         {
-            Text = "Tradução PT-BR — The Survey v1.0";
+            Text = "Tradução PT-BR — The Survey v1.1";
             ClientSize = new Size(640, 475);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
@@ -95,7 +95,7 @@ namespace TheSurveyPTBRInstaller
             warningPanel.Controls.Add(warningTitle);
 
             Label warningText = new Label();
-            warningText.Text = "Feche o jogo antes de instalar. O instalador modifica 5 arquivos e cria backup automático.\nCompatível com a versão original da Steam. O uso é de responsabilidade do usuário.";
+            warningText.Text = "Atualização v1.1: corrige a entrada numérica e a tela de dicas do celular.\nFeche o jogo antes de instalar; 5 arquivos serão alterados e um backup será criado.";
             warningText.Font = new Font("Segoe UI", 8.5F);
             warningText.ForeColor = Color.FromArgb(80, 65, 38);
             warningText.AutoSize = true;

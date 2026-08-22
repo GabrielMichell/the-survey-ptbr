@@ -10,6 +10,8 @@ Tradução não oficial de **The Survey** para português brasileiro.
 
 **[Baixar a versão mais recente](https://github.com/GabrielMichell/the-survey-ptbr/releases/latest)**
 
+> **Atualização v1.1:** corrige a entrada numérica e a confirmação da senha no celular, traduz a tela de dicas e ajusta o contador para evitar sobreposição de texto. Se você já instalou a v1.0, baixe a v1.1 e substitua os arquivos anteriores.
+
 </div>
 
 ## Sobre a tradução
@@ -22,7 +24,7 @@ Os dois downloads contêm a mesma tradução. **Não é necessário baixar os do
 
 ### Instalador automático — recomendado
 
-Baixe o arquivo terminado em **`-Instalador-v1.0.exe`** na página da Release.
+Baixe o arquivo terminado em **`-Instalador-v1.1.exe`** na página da Release.
 
 1. Feche o jogo.
 2. Execute o instalador.
@@ -35,13 +37,13 @@ O instalador cria backup automático dos cinco arquivos modificados e oferece a 
 
 O instalador ainda não possui uma assinatura digital comercial. Por isso, o Microsoft Defender SmartScreen pode classificá-lo como **aplicativo não reconhecido**. Esse é um aviso de reputação para programas novos ou sem assinatura e, isoladamente, **não significa que um vírus foi detectado**.
 
-Antes de continuar, confirme que o arquivo veio desta Release oficial e compare seu hash SHA-256 com o valor publicado em `SHA256SUMS.txt`. Estando tudo correto, clique em **Mais informações**, confira o nome `Traducao-PTBR-The-Survey-Instalador-v1.0.exe` e escolha **Executar assim mesmo**. Isso não desativa o SmartScreen nem o antivírus.
+Antes de continuar, confirme que o arquivo veio desta Release oficial e compare seu hash SHA-256 com o valor publicado em `SHA256SUMS.txt`. Estando tudo correto, clique em **Mais informações**, confira o nome `Traducao-PTBR-The-Survey-Instalador-v1.1.exe` e escolha **Executar assim mesmo**. Isso não desativa o SmartScreen nem o antivírus.
 
 Se o antivírus apresentar o nome de uma ameaça específica, colocar o arquivo em quarentena ou indicar uma detecção de malware, **não force a execução**. Use o ZIP manual e relate o alerta em uma Issue.
 
 ### Instalação manual
 
-Baixe **`Traducao-PTBR-The-Survey-v1.0.zip`** na página da Release.
+Baixe **`Traducao-PTBR-The-Survey-v1.1.zip`** na página da Release.
 
 1. Feche o jogo.
 2. Extraia o ZIP.
